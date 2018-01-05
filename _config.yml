@@ -9,7 +9,7 @@
 title: Jekyll and Twitter Bootstrap 4.x
 email: david.jacquel@gmail.com
 description: Using Jekyll and Twitter Bootstrap 4.x
-baseurl: ""
+baseurl: "/jekyll-twb-4.x"
 url: "http://pygmeeweb.com"
 twitter_username: djacquel
 github_username:  djacquel
@@ -27,7 +27,7 @@ sass:
   # see http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   # on a typical twitter bootstrap stats are :
   # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
-  style: expanded
+  style: compressed
 
 defaults:
   -

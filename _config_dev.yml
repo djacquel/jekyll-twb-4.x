@@ -1,0 +1,10 @@
+# development setup
+# use with : bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+baseurl: ""
+url: "http://127.0.0.1:4000/"
+
+sass:
+  style: expanded
+
+show_debug: true

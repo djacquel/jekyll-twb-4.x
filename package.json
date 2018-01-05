@@ -1,17 +1,16 @@
 {
-  "name": "Jekyll and Twitter Bootstrap 4.x",
+  "name": "jekyll-twb-4x",
   "version": "0.0.1",
   "description": "Using Jekyll and Twitter Bootstrap 4.x",
-  "main": "index.hmtl",
+  "main": "index.html",
+  "repository": "git@github.com:djacquel/jekyll-twb-4.x.git",
+  "author": "djacquel <github@pygmeeweb.com>",
+  "homepage": "http://pygmeeweb.com",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
     "bootstrap": "next",
     "jquery": "^3.2.1",
     "popper.js": "^1.13.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "David Jacquel",
-  "license": "MIT"
 }
