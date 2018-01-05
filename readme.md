@@ -2,7 +2,7 @@
 
 ### Why this starter kit ?
 
- - to use the last Twitter Bootstrap 4.x 'nearly' out of the box.
+ - to use the last [Twitter Bootstrap 4.x](https://getbootstrap.com/) 'nearly' out of the box.
  - to tweek templates and includes (IMAO gem based themes are crap). Here, everything is in place to start tinkering.
 
 ### Dependencies
