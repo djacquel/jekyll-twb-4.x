@@ -1,0 +1,17 @@
+{
+  "name": "Jekyll and Twitter Bootstrap 4.x",
+  "version": "0.0.1",
+  "description": "Using Jekyll and Twitter Bootstrap 4.x",
+  "main": "index.hmtl",
+  "dependencies": {
+    "bootstrap": "next",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Jacquel",
+  "license": "MIT"
+}
