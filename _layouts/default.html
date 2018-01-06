@@ -4,12 +4,8 @@
   <body>
     {% include header.html %}
     <div class="container">
-	{% if site.show_debug %}
-		{% include utils/breakpoints.html %}
-	{% endif %}
-    
     {{ content }}
-    </div>
     {% include footer.html %}
+    </div>
   </body>
 </html>

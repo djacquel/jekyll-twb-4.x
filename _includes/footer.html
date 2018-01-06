@@ -1,1 +1,16 @@
 <h1>Footer</h1>
+
+<script src="{{ site.baseurl }}/node_modules/jquery/dist/jquery.slim.js"></script>
+<script src="{{ site.baseurl }}/node_modules/popper.js/dist/umd/popper.js"></script>
+<script src="{{ site.baseurl }}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+{% if site.debug_show %}
+<p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Debug</button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    {% include utils/breakpoints.md %}
+    {% include utils/site_vars.md %}
+  </div>
+</div>
+{% endif %}
