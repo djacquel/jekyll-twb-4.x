@@ -15,8 +15,14 @@ twitter_username: djacquel
 github_username:  djacquel
 
 # Build settings
+exclude: []
+include: [ "node_modules" ]
+
 markdown: kramdown
 
+kramdown:
+  parse_block_html: true
+  
 sass:
   # loading path from site root
   # default to _sass
