@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap": "next",
     "jquery": "^3.2.1",
-    "popper.js": "^1.13.0"
+    "popper.js": "^1.13.0",
+    "jquery.cookie": "^1.4.1"
   }
 }
