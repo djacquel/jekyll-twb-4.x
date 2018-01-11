@@ -1,18 +1,32 @@
-<h1>Footer</h1>
+<footer class="text-muted">
+  <div class="container">
+
+     <ul class="list-unstyled">
+      <li><a href="#">Follow on Twitter</a></li>
+      <li><a href="#">Like on Facebook</a></li>
+      <li><a href="#">Email me</a></li>
+    </ul>
+
+<p>&copy; {{ site.title }} 2017</p>
+
+    {% if site.debug_show %}
+    <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Debug</button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        {% include utils/breakpoints.md %}
+        {% include utils/site_vars.md %}
+      </div>
+    </div>
+    {% endif %}
+    <p class="float-right">
+      <a href="#top">Back to top</a>
+    </p>
+  </div>
+</footer>
 
 <script src="{{ site.baseurl }}/node_modules/jquery/dist/jquery.slim.js"></script>
 <script src="{{ site.baseurl }}/node_modules/jquery.cookie/jquery.cookie.js"></script>
 <script src="{{ site.baseurl }}/node_modules/popper.js/dist/umd/popper.js"></script>
 <script src="{{ site.baseurl }}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script src="{{ site.baseurl }}/assets/js/script.js"></script>
-
-{% if site.debug_show %}
-<p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Debug</button>
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    {% include utils/breakpoints.md %}
-    {% include utils/site_vars.md %}
-  </div>
-</div>
-{% endif %}

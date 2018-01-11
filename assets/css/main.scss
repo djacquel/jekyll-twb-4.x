@@ -1,14 +1,71 @@
 ---
 ---
-// overide twb variables here
+
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// override twb variables here
 // list of available variables
 // here : https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
 
+$primary: #36b1cc;
 
+$navbar-light-color:        rgba($black, .9);
+$navbar-light-hover-color:  rgba($primary, .7);
+$navbar-light-active-color: rgba($primary, .9);
 
-@import "bootstrap";
+$enable-rounded: false;
+
+// put custom style at the end of this file
+
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+@import "print";
+
 
 // custom styles
+
+
+.logo-container{
+  width: 300px;
+  height: 30px;
+  margin-top: -13px;
+  overflow: visible;
+
+  img{
+    height: 80px;
+  }
+}
 
 a.externalLink{
   background: url({{ site.baseurl }}/img/utils/external-link-10-red.png) center right no-repeat;
@@ -17,4 +74,22 @@ a.externalLink{
 
 a.externalLink:hover{
   background: url({{ site.baseurl }}/img/utils/external-link-10-green.png) center right no-repeat;
+}
+
+.album {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
 }
