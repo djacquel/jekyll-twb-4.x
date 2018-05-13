@@ -14,14 +14,14 @@ In order to play, you'll need :
  - ruby >= 2.4.2 preferably installed with [rbenv](https://github.com/rbenv/rbenv) or rvm,
  - [bundler](http://bundler.io/),
  - [node](https://nodejs.org/en/) preferably installed with [nvm](https://github.com/creationix/nvm),
- - [yarn](https://yarnpkg.com) or npm
+ - [yarn](https://yarnpkg.com)
 
 ### Install
 
 Once every dependencies are met, you can :
 
 - Clone this repo : ```git clone git@github.com:djacquel/jekyll-twb-4.x.git```
-- ```yarn``` or ```npm install```
+- ```yarn```
 - you can now run jekyll with ```bundle exec jekyll serve``` if you play  or, with jekyll 3.7.x, you can use livereload ```bundle exec jekyll serve --livereload```
 
 ### Contribute
